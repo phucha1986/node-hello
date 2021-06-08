@@ -1,0 +1,11 @@
+---
+application:
+  name: "ek-node"
+  project: "EK_NODE"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-ek-node"
+  routes:
+  - application_name: "ek-node"
+    paths:
+    - "/*"
